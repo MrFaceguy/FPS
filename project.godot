@@ -11,15 +11,14 @@ config_version=5
 [application]
 
 config/name="FPS"
-run/main_scene="res://TestScene.tscn"
+run/main_scene="res://Maps/TestScene.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://texture/images/icon.svg"
 
 [display]
 
-window/size/viewport_width=1920
-window/size/viewport_height=1080
-window/size/mode=3
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [input]
 
